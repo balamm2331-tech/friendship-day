@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Friendship Day ❤️</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#6dd5fa,#ffffff,#fbc2eb);
+overflow-x:hidden;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+background:linear-gradient(45deg,#ff6a88,#ff99ac,#6a89ff);
+}
+
+header h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+header p{
+font-size:22px;
+width:70%;
+}
+
+button{
+margin-top:40px;
+padding:15px 35px;
+font-size:20px;
+border:none;
+border-radius:50px;
+background:white;
+color:#ff4b7d;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.08);
+}
+
+section{
+padding:70px;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+font-size:40px;
+color:#444;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:260px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+.card p{
+padding:0 15px 20px;
+}
+
+.timeline{
+max-width:700px;
+margin:auto;
+line-height:2;
+font-size:20px;
+}
+
+footer{
+padding:60px;
+background:#222;
+color:white;
+text-align:center;
+font-size:22px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🌻 Happy Friendship Day 🌻</h1>
+
+<p>
+Friendship is one of life's greatest gifts.
+Thank you for being part of my journey.
+</p>
+
+<button onclick="document.getElementById('gallery').scrollIntoView({behavior:'smooth'})">
+Meet My Friends ❤️
+</button>
+
+</header>
+
+<section id="gallery">
+
+<h2>Our Beautiful Memories</h2>
+
+<div class="gallery">
+
+<div class="card">
+<img src="https://picsum.photos/400/400?random=1">
+<h3>Aisha Sharma</h3>
+<p>Always spreading positivity and happiness.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/400?random=2">
+<h3>Rahul Verma</h3>
+<p>The friend who never lets life become boring.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/400?random=3">
+<h3>Neha Kapoor</h3>
+<p>Always there through every up and down.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/400?random=4">
+<h3>Arjun Patel</h3>
+<p>Adventure partner forever.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/400?random=5">
+<h3>Priya Nair</h3>
+<p>Turns ordinary days into unforgettable memories.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/400?random=6">
+<h3>Karan Singh</h3>
+<p>The funniest person in the group.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Friendship Timeline</h2>
+
+<div class="timeline">
+
+❤️ 2019 - First Meeting
+
+<br>
+
+🎂 2020 - Birthday Celebration
+
+<br>
+
+🏕️ 2021 - First Trip Together
+
+<br>
+
+📸 2022 - Countless Memories
+
+<br>
+
+🎉 2023 - More Adventures
+
+<br>
+
+🌟 Forever Friends
+
+</div>
+
+</section>
+
+<footer>
+
+❤️ Thank you for making my life more beautiful ❤️
+
+<br><br>
+
+Happy Friendship Day
+
+</footer>
+
+</body>
+
+</html>
