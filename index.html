@@ -67,27 +67,26 @@ color:#444;
 }
 .gallery{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:25px;
-margin-top:30px;
 }
 
 .card{
 background:white;
 border-radius:20px;
 overflow:hidden;
-box-shadow:0 8px 20px rgba(0,0,0,.15);
+box-shadow:0 10px 25px rgba(0,0,0,.15);
 transition:.3s;
 }
 
 .card:hover{
-transform:translateY(-8px);
+transform:translateY(-10px);
 }
 
 .card img{
 width:100%;
-height:auto;
-display:block;
+height:260;
+object-fit:cover;
 }
 
 .card h3{
